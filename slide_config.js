@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Title Goes Here<br>Up To Two Lines',
-    subtitle: 'Subtitle Goes Here',
+    title: 'What do you mean it\'s<br> not all fun & Games?',
+    subtitle: 'The Hype, Myth, and Promise of Gamification',
     //eventTitle: 'Google I/O 2013',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
@@ -19,19 +19,12 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Firstname Lastname',
-    company: 'Job Title, Google',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  }/*, {
-    name: 'Second Name',
-    company: 'Job Title, Google',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  }*/]
+    name: 'Wesley Reisz',
+    company: 'Code Wrangler',
+    twitter: '@wesreisz',
+    www: 'http://www.wesleyreisz.com',
+    github: 'http://github.com/wesreisz',
+	email: 'wes@wesleyreisz.com'
+  }]
 };
 

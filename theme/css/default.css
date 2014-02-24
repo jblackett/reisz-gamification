@@ -301,7 +301,7 @@ slides > slide.dark {
 /* line 171, ../scss/default.scss */
 slides > slide:not(.nobackground):before {
   font-size: 12pt;
-  content: "#yourhashtag";
+  content: "# CPL14 / #MGY";
   position: absolute;
   bottom: 20px;
   left: 60px;
@@ -1217,8 +1217,8 @@ article.smaller q:before, article.smaller q:after {
 /* ===== SLIDE CONTENT ===== */
 /* line 839, ../scss/default.scss */
 .logoslide img {
-  width: 383px;
-  height: 92px;
+  width: 350px;
+  height: 120px;
 }
 
 /* line 845, ../scss/default.scss */
@@ -1312,6 +1312,7 @@ aside.gdbar.right img {
   -ms-transform: rotateZ(180deg);
   -o-transform: rotateZ(180deg);
   transform: rotateZ(180deg);
+  
 }
 /* line 907, ../scss/default.scss */
 aside.gdbar.bottom {
@@ -1326,6 +1327,11 @@ aside.gdbar img {
   position: absolute;
   right: 0;
   margin: 8px 15px;
+-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* line 924, ../scss/default.scss */
@@ -1410,6 +1416,77 @@ aside.gdbar img {
 .overview .slide-area {
   display: none;
 }
+
+.hcenter{
+	text-align: center;
+}
+
+.gitfork{
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+
+#li-image1{
+	position: absolute; 
+	top:18vw; 
+	left:10vw;  
+	transform:rotate(4deg);
+	-ms-transform:rotate(4deg);
+	-webkit-transform:rotate(4deg);
+}
+#li-image2{
+	position: absolute; 
+	top:3vw; 
+	right:20px;
+	transform:rotate(30deg);
+	-ms-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);  
+}
+#li-image3{
+	position: absolute; 
+	top:35px;  
+	transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg);
+	-webkit-transform:rotate(-15deg);
+}
+#li-image4{
+	position: absolute; 
+	top:25vw; 
+	left:10px;  
+	transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+#li-image5{
+	position: absolute; 
+	top:20vw; 
+	left:10px;  
+	transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
+}
+#li-image6{
+	position: absolute; 
+	bottom:1vw; 
+	right:10px;  
+	transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+#li-image7{
+	position: absolute; 
+	top:13vw; 
+	left:23vw;  
+}
+
+a  img{
+	text-decoration:none !important;
+	border: none;
+}
+
+
+
 
 @media print {
   /* line 1014, ../scss/default.scss */
